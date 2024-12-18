@@ -11,7 +11,7 @@
 =======================================
 Documentations : https://github.com/MITOM06/bai3/tree/main/Documentations
 =======================================
-Published website : https://l3nhan.github.io/doodle_group01/
+Published website : file:///C:/TranKhang/FPT%20APTECH/HK1/2.BMW/test/html/home.html
 =======================================
 Thank you for visit our website.
 
