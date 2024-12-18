@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../js/reservation.js"></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <div class="mynav">
+            <a href="./home.html">ABOUT US</a>
+            <a href="">MENU</a>
+            <a href="./reservation.html">RESERVATION</a>
+            <a href="" style="font-size:30px ;">BONBON</a>
+            <a href="">EVENT</a>
+            <a href="">GALARY</a>
+            <a href="">CONTACT</a>
+        </div>
+
+    </header>
+
+    <section>
+
+        <center>
+            <h1>Online Booking</h1>
+            <form onsubmit="return register();" action="./home.html">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <div>Full name:<input id="txtName" name="name" placeholder="Enter full name" type="text"
+                                    autofocus> </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <div>Email: <input type="text" name="txtEmail" placeholder="enter email" id="txtMail"
+                                    autofocus></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <div>Phone number: <input type="text" name="Phonenumber" placeholder="enter phone number "
+                                    id="txtPhonenumber" autofocus>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>No. of Person
+                      <select id="txtperson">
+                            <option value="">1 person</option>
+                            <option value="">2 person</option>
+                            <option value="">3 person</option>
+                            <option value="">4 person</option>
+                            <option value="">5 person</option>
+                            <option value="">More ...</option>
+                        </select>
+                    </td> 
+                    </tr>
+                    <tr>
+                        <td align=" center">
+                            <div>Set Date <input type="date" name="txtDate" id="txtDate" autofocus>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=" center">
+                            <div>Time set: <input type="time" name="txtDate" id="txtDate" autofocus>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            comment: <textarea cols="50" rows="5" tabindex="2" accesskey="c"></textarea>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div class="actions">
+                                <input type="submit" value="Reserve table">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </center>
+    </section>
+
+</body>
+</html>
